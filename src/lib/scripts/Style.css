@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Calibri, serif;
+    font-size: 1rem;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+body {
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+*:focus {
+    outline: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+input, span, ul, li, select, option {
+    display: block;
+}
+
+button:hover, input[type="button"] {
+    cursor: pointer;
+}
+
+.bodyContainer {
+    background-color: rgba(223, 226, 197, 0.2);
+    width: 48vw;
+    min-width: 620px;
+    min-height: 90vh;
+    padding: 20px;
+    margin: 0 auto 20px auto;
+    text-align: center;
+}
+
+.boxContainer {
+    margin: 20px auto;
+    text-align: center;
+}
+
+.headerClass {
+    height: 55px;
+    background-color: rgba(130, 155, 135, 0.8);
+    border-bottom: 4px solid rgba(130, 155, 135, 1);
+}
+
+.headerButtons, .menuButtonsList {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+
+.menuButtonsList {
+    min-width: 350px;
+    margin: auto auto;
+    padding: 0 4px;
+    grid-template-columns: auto auto auto auto auto auto;
+}
+
+.headerButtons {
+    text-decoration: none;
+    margin: 11px 9px;
+    color: rgba(84, 84, 84, 1);
+    min-width: 90px;
+    height: 30px;
+    padding: 3px 6px;
+    border-radius: 3px;
+    background-color: rgba(255, 255, 255, 1);
+    font-weight: bold;
+}
+
+.headerButtons:hover {
+    cursor: pointer;
+    background: linear-gradient(to bottom,
+    rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.8));
+}
+
+#mapContainer {
+    height: 500px
+}
+
+
+
